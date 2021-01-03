@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather App - Art Rebel 9</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap&family=Rozha+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main-bg" style="background-image:url('assets/sun-bg.png');">
+		<div class="main-container">
+			<div class="landing-page">
+				<p>Select a location to display the</p>
+				<h1>weather data!</h1>
+				<div class="search-box-container">
+					<img class="search-icon" src="assets/search-icon.png"/>
+					<input type="text" placeholder="Select Location" class="search-box">
+				</div>
+			</div>
+			<div class="weather-search">
+				<div class="close-location">
+					<a href="" class="btn-close">
+						<img src="assets/close.png" class="close-icon" alt="">
+					</a>
+					<p class="location-name">Location Name</p>
+				</div>
+				<div class="temperature">
+					<p>35°C</p>
+				</div>
+				<div class="weather-object">
+				</div>
+				<div class="week-days-container">
+					<h4 class="selected-day">Monday</h4>
+					<div class="holder">
+						<div 
+							class ="day active" 
+							weekday = "Monday"
+							temp = "35"
+							weather = ""
+						>
+							<img  class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Tuesday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Wednesday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Thursday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Friday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Saturday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+						<div 
+							class="day"
+							weekday = "Sunday"
+						>
+							<img class="icon" src="assets/icons/cloud.png" alt="">
+							<p>35°C</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="module" src="scripts/main-dist.js"></script>
+</html>
